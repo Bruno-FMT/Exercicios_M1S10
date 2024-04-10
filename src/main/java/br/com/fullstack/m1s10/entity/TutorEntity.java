@@ -8,11 +8,12 @@ import lombok.Data;
 
 @Data
 @Entity
-public class AlunoEntity {
-
+public class TutorEntity
+{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nome;
+    private String especialidade;
 }
