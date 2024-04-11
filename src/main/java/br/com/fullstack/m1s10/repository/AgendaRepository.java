@@ -1,0 +1,7 @@
+package br.com.fullstack.m1s10.repository;
+
+import br.com.fullstack.m1s10.entity.AgendaEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AgendaRepository extends JpaRepository<AgendaEntity, Long> {
+}
